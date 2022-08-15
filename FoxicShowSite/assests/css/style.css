@@ -475,6 +475,12 @@ height: 609px;
     left: 40PX; 
 }
 
+/* @media all and (min-width:0) and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+
 #photos .two-text h1{
     font-weight: 800;
     font-size: 34px;
@@ -814,4 +820,224 @@ ul {
 #top-footer .decorate i:hover{
     text-decoration: none;
     color: black;
+}
+
+
+
+#blue-area i {
+    font-size: 65px;
+    align-items: center;
+    color: #FAFAFA;
+}
+
+#blue-area button {
+    width: 200px;
+    padding: 15px 0;
+    border-radius: 28px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+
+#blue-area p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#blue-area button a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#blue-area button:hover {
+    background-color: #282828;
+    color: #FAFAFA;
+}
+
+.linkess {
+    display: flex;
+    flex-direction: column;
+    line-height: 32px;
+}
+
+.linkess a {
+    color: #282828;
+}
+
+.soc-1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.socialss h5 {
+    text-align: center;
+}
+
+.soc-1 div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #33cad5;
+    background-color: #F7F7F8;
+}
+
+.soc-1 div:hover {
+    background-color: #33cad5;
+}
+
+.soc-1 div:hover i {
+    color: #FAFAFA;
+}
+
+.socialss i {
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    color: #33cad5;
+}
+
+.letter button {
+    width: 200px;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 28px;
+    background-color: #33cad5;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.letter input {
+    border: 2px solid aliceblue;
+    border-radius: 20px;
+}
+
+.letter h5 {
+    text-align: center;
+}
+
+.letter button:hover {
+    background-color: #282828;
+    color: #FAFAFA;
+}
+
+.hands-glow {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.hands-glow .texts-and-button {
+    top: 30px;
+}
+
+.hands-glow h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hands-glow h3 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.shampoo {
+    position: relative;
+}
+
+.shampoo .texts-and-button {
+    top: 30px;
+}
+
+.shampoo h4 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #282828;
+}
+
+.shampoo h3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: #282828;
+}
+
+.test-covid {
+    position: relative;
+}
+
+.test-covid .texts-and-button {
+    top: 30px;
+    left: 30px;
+}
+
+.test-covid h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.test-covid h2 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+#banner-second button {
+    width: 150px;
+    padding: 15px 0;
+    border-radius: 28px;
+    background-color: black !important;
+    cursor: pointer;
+    border: none;
+}
+
+#banner-second button:hover {
+    background-color: #33cad5 !important;
+    color: #FAFAFA;
+}
+
+#banner-second button a:hover {
+    color: #FAFAFA;
+}
+
+#banner-second button a {
+    text-decoration: none;
+    color: white !important;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#banner-second .texts-and-button {
+    position: absolute;
+}
+
+#foot-end {
+    padding: 70px;
+}
+
+.foot-all {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+.foot-all i {
+    text-align: center;
+    font-size: 40px;
+    color: #020202
+}
+
+.foot-all i:hover {
+    color: #33cad5;
+}
+
+.betweenn {
+    display: flex;
+    justify-content: space-between;
 }
